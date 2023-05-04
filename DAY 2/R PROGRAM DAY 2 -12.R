@@ -1,0 +1,5 @@
+L<- sample(LETTERS,size=20,replace=TRUE)
+print(L)
+factoe<- factor(L,levels=c("A","E","I","O","U"))
+print(factor)
+print(table(L[1:5]))
