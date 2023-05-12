@@ -1,0 +1,8 @@
+v<-c(12,7,3,4.2,18,2,54,-21,8,-5)
+result<-mean(v)
+print(result)
+values <- c(12, 7, 3, 4.2, 18, 2, 54, -21, 8, -5)
+result.mean <- mean(values,trim = 0.3) 
+print(result.mean) 
+v1<-c(12,7,3,4.2,18,2,54,-21,8,-5,NA)
+mean(v1,na.rm=TRUE)
